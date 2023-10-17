@@ -1,0 +1,347 @@
+@charset "UTF-8";
+
+
+
+html {
+    font-size: 100%;
+    /* scroll-behavior: smooth; */
+}
+
+body {
+    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
+.top-wrapper img {
+    object-position: top 0 right 45%;
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.top-wrapper {
+    background-image: url(../img/mainvisual.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: top 0 right 51%;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    transition: .5s;
+}
+
+nav a:hover {
+    color: red;
+}
+
+h1 {
+    color: #FFFFFF;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 5.5rem;
+}
+
+
+/* menu */
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #FFFFFF;
+    border: 1px solid red;
+}
+
+/* 赤の下線 */
+h3 {
+    font-size: 1.8rem;
+    padding-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    position: relative;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 5px solid red;
+}
+
+/* h3::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #E03130;
+    width: 100%;
+    height: 5px;
+    display: inline-block;
+} */
+
+/* menu */
+
+.bg-img {
+    width: 100%;
+    height: 50vh;
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+
+.back-img-menu {
+    background-image: url(../img/menu.jpg);
+}
+
+
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.menu-left {
+    width: 50%;
+    border-right: 1px solid;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+
+.menu-right {
+    width: 50%;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt {
+    width: 80%;
+    border-bottom: 1px dotted #000000;
+    margin: 10px 0;
+    /* border: 1px solid red; */
+}
+
+dd {
+    width: 20%;
+    margin: 10px 0;
+    text-align: right;
+    /* border: 1px solid red; */
+}
+
+.title {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+/* about */
+
+.about {
+    text-align: center;
+}
+
+.back-img-about {
+    background-image: url(../img/about.jpg);
+}
+
+.about-text {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.text {
+    margin-bottom: 3%;
+    width: 48%;
+}
+
+.text-right {
+    width: 48%;
+}
+
+/* read-btn */
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 70px;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    color: #000;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.btn span {
+    position: relative;
+    /*   spanはインライン要素 */
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 右下角の２線 */
+.btn::before,
+.btn::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #e03131;
+    transition: all 0.3s ease;
+}
+
+/* 左上角の２線 */
+.btn span::before,
+.btn span::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #e03131;
+    transition: all 0.3s ease;
+}
+
+/* beforeが縦線、afterが横線 */
+.btn::before,
+.btn span::before {
+    width: 2px;
+    height: 50%;
+}
+
+.btn::after,
+.btn span::after {
+    width: 20%;
+    height: 2px;
+}
+
+/*
+  ホバー時の縦の動作
+  縦線の高さを100%にする
+  */
+.btn:hover::before,
+.btn span:hover::before {
+    height: 100%;
+}
+
+/*
+  ホバー時の横の動作
+  横線の横幅を100%にする
+  */
+.btn:hover::after,
+.btn span:hover::after {
+    width: 100%;
+}
+
+/* location */
+.back-img-location {
+    background-image: url(../img/location.jpg);
+}
+
+/* our store */
+.our-store p {
+    margin: 0;
+}
+
+.address,
+.time,
+.tel {
+    padding-bottom: 10px;
+}
+
+.map {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* header */
+footer p {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 15px;
+    font-size: 0.6rem;
+}
+
+@media(max-width:800px) {
+
+    .bg-img {
+        height: 20vh;
+    }
+
+    .menu-wrapper,
+    .about-text,
+    .manu-list {
+        flex-direction: column;
+    }
+
+    .menu-list {
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .text,
+    .text-right {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .menu-left {
+        border-right: none;
+    }
+    
+    .menu-left,
+    .menu-right {
+        width: 100%;
+        padding: 0;
+    }
+
+}
