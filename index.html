@@ -2,191 +2,355 @@
 <html lang="ja">
 
 <head>
-    <meta charset="utf-8">
-    <title>COFFEE</title>
-    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kasumi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Crimson+Text&family=Gwendolyn&family=Playfair+Display:ital@1&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+    <link rel="stylesheet" type="style.css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 </head>
 
 <body>
+    <header id="header">
+        <div class="header-wrapper">
+            <div class="logo">
+                <h1>studio.m</h1>
+            </div>
+            <nav id="nav">
+                <div class="header-list">
+                    <ul>
+                        <li><a href="#about">特徴</a></li>
+                        <li><a href="#">プラン</a></li>
+                        <li><a href="#">衣装</a></li>
+                        <li><a href="#">ヘアメイク</a></li>
+                        <li><a href="#">ギャラリー</a></li>
+                        <li><a href="#">お客様の声</a></li>
+                        <li><a href="#">アクセス</a></li>
+                    </ul>
+                </div>
+            </nav>
 
-
-    <!-- 聞きたいこと -->
-    <!-- font -->
-    <!-- btnの位置 -->
-    <!-- 赤線 -->
-
-
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#menu">MENU</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#location">LOCATION</a></li>
-            </ul>
-        </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </header>
+
+    <!-- main -->
     <main>
-        <div class="top-wrapper">
-            <h1>COFFEE</h1>
+        <div class="main">
+            <img src="kasumi-img/main.webp" alt="">
         </div>
 
-        <!-- menu -->
+        <!-- -------- about ------------------ -->
 
-        <div class="back-img-menu bg-img" id="menu">
-            <h2>MENU</h2>
-        </div>
-
-
-        <div class="menu-wrapper container">
-
-            <div class="menu-left">
-
+        <section id="about" class="container">
+            <div class="title-wrapper">
+                <p class="dec-title">About</p>
                 <div class="title">
-                    <h3>COFFEE</h3>
-                </div>
-
-                <div class="menu-list">
-                    <dl>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                    </dl>
+                    <h2><span>3</span>つの特徴</h2>
                 </div>
             </div>
-
-            <div class="menu-right">
-
-                <div class="food">
-                    <div class="title">
-                        <h3>FOOD</h3>
-                    </div>
-                    <dl>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                    </dl>
+            <!-- 1個目 -->
+            <div class="about-right">
+                <div class="about-photo">
+                    <img src="kasumi-img/about-1.jpg" alt="">
+                    <div class="bg-box"></div>
+                </div>
+                <div class="about-circle">
+                    <span class="number">01</span>
+                    <p>200着以上のドレスから<br>あなただけの１着を<br>お選びいただけます</p>
+                    <img src="kasumi-img/sweet pea.png" alt="" class="img-flower img-flower1">
+                </div>
+            </div>
+            <!-- ２個目 -->
+            <div class="about-left">
+                <div class="about-circle">
+                    <span class="number">02</span>
+                    <p>ヘアメイク込み、<br>フローリスト監修の<br>お花たっぷりのブーケ</p>
+                    <img src="kasumi-img/sweet pea.png" alt="" class="img-flower img-flower2">
+                </div>
+                <div class="about-photo">
+                    <img src="kasumi-img/about2.jpg" alt="">
+                    <div class="bg-box"></div>
+                </div>
+            </div>
+            <!-- ３個目 -->
+            <div class="about-right2">
+                <div class="about-photo">
+                    <img src="kasumi-img/about3.jpg" alt="">
+                    <div class="bg-box"></div>
                 </div>
 
-                <div class="other">
-                    <div class="title">
-                        <h3>OTHER</h3>
-                    </div>
-
-                    <dl>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                        <dt>XXXXXXXX</dt>
-                        <dd>¥500</dd>
-                    </dl>
+                <div class="about-circle">
+                    <span class="number">03</span>
+                    <p>全プラン30カット以上<br>データ付き<br>当日のお渡しも可能です</p>
+                    <img src="kasumi-img/sweet pea.png" alt="" class="img-flower img-flower3">
                 </div>
-
-            </div>
-        </div>
-
-
-        <!-- about -->
-        <section class="about" id="about">
-
-            <div class="back-img-about bg-img">
-                <h2>ABOUT</h2>
-            </div>
-
-            <div class="title">
-                <h3>COFFEE</h3>
-            </div>
-
-            <div class="about-text container">
-                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト
-                    テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                <p class="text-right">テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト
-                    テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
-
-            <div class="about-text container">
-                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト
-                    テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                <p class="text-right">テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト
-                    テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
-
-            <!-- read-btn -->
-            <div class="container">
-                <a href="#" class="btn"> <span>Read More</span></a>
             </div>
         </section>
-        <!-- location -->
+        <!----------------------plan ------------------------------>
+        <section id="plan" class="container">
+            <div class="title-wrapper">
+                <p class="dec-title">plan</p>
+                <div class="title">
+                    <h2><span>プ</span>ラン紹介</h2>
+                </div>
+            </div>
 
-        <div class="back-img-location bg-img" id="location">
-            <h2>LOCATION</h2>
-        </div>
+            <div class="plan-container">
+                <div class="plan-wrapper">
+                    <div class="plan">
+                        <img src="kasumi-img/plan1.jpg" alt="" class="fadein">
+                        <p>洋装<br>30カットデータ付き</p>
+                        <p class="money">¥78000</p>
+                    </div>
+                    <div class="plan">
+                        <img src="kasumi-img/plan2.jpg" alt="" class="fadein">
+                        <p>洋装・和装<br>30カットデータ<br>12Pアルバムプラン</p>
+                        <p class="money">¥138000</p>
+                    </div>
+                </div>
 
+                <div class="plan-kimono">
+                    <img src="kasumi-img/plan3.jpg" alt="" class="fadein">
+                    <p>洋装or和装ロケーション<br>30カットデータ付き<br>20Pアルバムプラン</p>
+                    <p class="money">¥178000</p>
+                </div>
+                <div class="plan-text">
+                    <p>ご家族と一緒に撮影することも<br>可能です。</p>
+                    <img src="kasumi-img/吹出し.png" alt="" class="plan-wordballon">
+                </div>
 
-        <!-- our store -->
-        <div class="title">
-            <h3>OUR&nbsp;STORE</h3>
-        </div>
+                <div class="plan-fam">
+                    <img src="kasumi-img/plan4.jpg" alt="" class="fam-photos fadein">
+                    <img src="kasumi-img/plan5.jpg" alt="" class="fam-photos fadein">
+                </div>
+            </div>
 
-        <div class="our-store container">
+            <a href="#" class="more-btn">
+                <img src="kasumi-img/leafflame.png" alt="" class="more-btn-img">
+                <span class="more-btn-text">more →</span>
+            </a>
+        </section>
+        <!------------------dress ------------------------------------>
+        <section id="dress" class="container">
+            <div class="title-wrapper">
+                <p class="dec-title">dress</p>
+                <div class="title">
+                    <h2><span>衣</span>装カタログ</h2>
+                </div>
+            </div>
 
-            <div class="grayscale">
+            <div class="dress-wrapper">
+                <img src="kasumi-img/dress_liberte.png" alt="" class="dress1 fadein2">
+                <div class="bg-box"></div>
+            </div>
+            <img src="kasumi-img/sweet pea.png" alt="" class="img-flower img-flower4">
+
+            <div class="dress-wrapper">
+                <img src="kasumi-img/dress_helena.png" alt="" class="dress2 fadein2">
+                <!-- <img src="kasumi-img/dress4.jpg" alt="" class="dw-img-4">
+                <img src="kasumi-img/dress5.jpg" alt="" class="dw-img-5">
+                <img src="kasumi-img/dress6.jpg" alt="" class="dw-img-6">
+                <div class="bg-box2"></div> -->
+                <div class="bg-box2"></div>
+            </div>
+
+            <div class="kimono-wrapper">
+                <img src="kasumi-img/kimono_marle.png" alt="" class="kimono fadein2">
+                <div class="bg-box"></div>
+                <img src="kasumi-img/sweet pea.png" alt="" class="img-flower img-flower5">
+            </div>
+        </section>
+
+        <!---------------- ヘアメイク ---------------------->
+        <section id="hairmake" class="container">
+            <div class="title-wrapper">
+                <p class="dec-title">hair&maike</p>
+                <div class="title">
+                    <h2><span>ヘ</span>アメイク</h2>
+                </div>
+            </div>
+            <div class="hm-wrapper">
+                <img src="kasumi-img/hair2.jpg" alt="" class="hm-2 fadein2">
+                <img src="kasumi-img/hair1.jpg" alt="" class="hm-1 fadein2">
+                <div class="bg-box"></div>
+                <img src="kasumi-img/sweet pea.png" alt="" class="img-flower img-flower6">
+            </div>
+            <div class="hm-wrapper">
+                <img src="kasumi-img/hair4.jpg" alt="" class="hm-3 fadein2">
+                <img src="kasumi-img/hair3.jpg" alt="" class="hm-4 fadein2">
+                <div class="bg-box2"></div>
+            </div>
+            <div class="hm-wrapper">
+                <img src="kasumi-img/hair5.jpg" alt="" class="hm-5 fadein2">
+                <img src="kasumi-img/hair6.jpg" alt="" class="hm-6 fadein2">
+                <div class="bg-box"></div>
+                <img src="kasumi-img/sweet pea.png" alt="" class="img-flower img-flower7">
+            </div>
+
+            <a href="#" class="more-btn">
+                <img src="kasumi-img/leafflame.png" alt="" class="more-btn-img">
+                <span class="more-btn-text">more →</span>
+            </a>
+        </section>
+
+        <!-----------------------ギャラリー  -------------------------->
+        <section id="gallery" class="container">
+            <div class="title-wrapper">
+                <p class="dec-title">gallery</p>
+                <div class="title">
+                    <h2><span>ギ</span>ャラリー</h2>
+                </div>
+            </div>
+            <ul class="gallery-wrapper">
+                <li><img src="kasumi-img/g1.jpg" alt=""></li>
+                <li><img src="kasumi-img/g2.jpg" alt=""> </li>
+                <li> <img src="kasumi-img/g3.jpg" alt=""></li>
+                <li><img src="kasumi-img/g4.jpg" alt=""></li>
+                <li><img src="kasumi-img/g5.jpg" alt=""></li>
+                <li> <img src="kasumi-img/g6.jpg" alt=""> </li>
+                <li><img src="kasumi-img/g7.jpg" alt=""></li>
+                <li> <img src="kasumi-img/g8.jpg" alt=""></li>
+                <li><img src="kasumi-img/g9.jpg" alt=""> </li>
+            </ul>
+        </section>
+
+        <!-- -------お客様の声　ーーーーーーーーーーーーーーーーーーーーー -->
+        <section id="voice" class="container">
+            <div class="title-wrapper">
+                <p class="dec-title">voice</p>
+                <div class="title">
+                    <h2><span>お</span>客様の声</h2>
+                </div>
+            </div>
+
+            <ul class="slider">
+                <li class="voice-item">
+                    <img src="kasumi-img/voice1.jpg" alt="">
+                    <p>価格がシンプルで<br>わかりやすかったです</p>
+                    <p>データをもらえるので<br>よかったです。</p>
+                </li>
+                <li class="voice-item">
+                    <img src="kasumi-img/voice1.jpg" alt="">
+                    <p>他では出来ないおしゃれな写真を<br>撮ることが出来ました。</p>
+                    <p>安心して撮影をすることが<br>出来ました。</p>
+                </li>
+                <li class="voice-item">
+                    <img src="kasumi-img/voice2.jpg" alt="">
+                    <p>他では出来ないおしゃれな写真を<br>撮ることが出来ました。</p>
+                    <p>安心して撮影をすることが<br>出来ました。</p>
+                </li>
+                <li class="voice-item">
+                    <img src="kasumi-img/voice2.jpg" alt="">
+                    <p>他では出来ないおしゃれな写真を<br>撮ることが出来ました。</p>
+                    <p>安心して撮影をすることが<br>出来ました。</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-----------------交通 ------------------------------ -->
+        <section id="acsess" class="container">
+            <div class="title-wrapper">
+                <p class="dec-title">acsess</p>
+                <div class="title">
+                    <h2><span>ア</span>クセス</h2>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <img src="kasumi-img/sweet pea.png" alt="" class="img-flower img-flower8">
                 <iframe class="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12969.253704100773!2d139.69688546659933!3d35.64464880101593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b40ba660b1b%3A0x8858088b6942f55f!2z44CSMTUwLTAwMjIg5p2x5Lqs6YO95riL6LC35Yy65oG15q-U5a-_5Y2X!5e0!3m2!1sja!2sjp!4v1689506735747!5m2!1sja!2sjp"
                     height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="map-text">
+                    <dl>
+                        <dt>所在地</dt>
+                        <dd>東京都渋谷区恵比寿南X-XX-XX</dd>
+                        <dt>営業時間</dt>
+                        <dd>１０時〜１９時</dd>
+                        <dt>定休日</dt>
+                        <dd>水曜日</dd>
+                        <dt>電話番号</dt>
+                        <dd>03-1234-5678</dd>
+                    </dl>
+                </div>
             </div>
+            <img src="kasumi-img/sweet pea.png" alt="" class="img-flower img-flower9">
+        </section>
 
-            <p>X-XX-XX, Ebisuminami, Shibuya-ku, Tokyo 150-0022</p>
-            <p class="address">東京都渋谷区恵比寿南X-XX-XX</p>
+        <!-- ーーーーお問い合せーーーーーーーーーーーー -->
+        <section id="contact">
+            <div class="contact-wrapper">
+                <div class="title-wrapper">
+                    <div class="title2">
+                        <h3><span>お</span>問い合わせ</h3>
+                    </div>
+                </div>
 
-            <p>Open 7 days a Week</p>
-            <p class="time">9:00am to 10:00pm</p>
+                <div class="contact-form">
+                    <form action="#">
+                        <dl>
+                            <dt><label for="name">お名前</label></dt>
+                            <dd><input type="text" id="name" name="your-name"></dd>
+                            <dt><label for="email">メールアドレス</label></dt>
+                            <dd><input type="email" id="email" name="your-email"></dd>
+                            <dt><label for="message">お問い合せ内容</label></dt>
+                            <dd><textarea id="message" name="your-message"></textarea></dd>
+                        </dl>
 
-            <p class="tel">Tel : XX-XXXX-XXXX</p>
-
+                        <div class="submit-btn-parent">
+                            <input type="submit" class="submit-btn" value="送信">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <img src="kasumi-img/sweet pea.png" alt="" class="img-flower img-flower10">
+        </section>
+        <img src="kasumi-img/footer.jpg" alt="" class="contact-img">
+    </main>
+    <!---------footer ーーーーーーーー-->
+    <footer>
+        <img src="kasumi-img/sweet pea.png" alt="" class="img-flower img-flower11">
+        <div class="container">
+            <h3>studio.m</h3>
+            <ul class="footer-list">
+                <li><a href="#about">特徴</a></li>
+                <li><a href="#">プラン</a></li>
+                <li><a href="#">衣装</a></li>
+                <li><a href="#">ヘアメイク</a></li>
+                <li><a href="#">ギャラリー</a></li>
+                <li><a href="#">お客様の声</a></li>
+                <li><a href="#">アクセス</a></li>
+            </ul>
         </div>
 
-
-
-
-    </main>
-
-
-    <!-- header -->
-
-    <footer>
-        <p>© COFFEE</p>
+        <div class="footer-btn">
+            <div class="btn-text">
+                <a href="#">撮影のご予約はこちら</a>
+            </div>
+            <div class="btn-img">
+                <img src="kasumi-img/flower01.png" alt="">
+            </div>
+        </div>
     </footer>
 
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
