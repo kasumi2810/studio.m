@@ -43,7 +43,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid; */
     margin-bottom: 50px;
 }
 
@@ -55,7 +54,6 @@ h3 {
 .title span {
     color: #DE9DA7;
     font-size: 36px;
-    /* font-family: 'Gwendolyn', cursive; */
 }
 
 .title2 span {
@@ -222,7 +220,7 @@ header {
     width: 25%;
     position: absolute;
     top: 10%;
-    right: -8%;
+    right: -5%;
     transform: rotate(150deg);
 }
 
@@ -230,7 +228,7 @@ header {
     position: absolute;
     width: 25%;
     top: 50%;
-    left: -5%;
+    left: 0%;
 }
 
 .about-circle .img-flower3 {
@@ -759,7 +757,7 @@ header {
 .img-flower8 {
     position: absolute;
     width: 8%;
-    top: 15%;
+    top: 20%;
     right: 5%;
 }
 
@@ -767,7 +765,7 @@ header {
     position: absolute;
     width: 8%;
     bottom: 10%;
-    left: 7%;
+    left: 3%;
     animation-name: fuwafuwa9;
 }
 
@@ -849,22 +847,22 @@ header {
     width: 100%;
 }
 
+
 .submit-btn-parent {
     text-align: center;
-    padding-left: 20%;
 }
 
 .contact-form .submit-btn {
     margin-top: 30px;
     border: 1px solid #507e46;
     width: 30%;
-    background-color: #f9f5f5;
     transition: 0.8s;
+    background-color: #507e46;
 }
 
 .contact-form .submit-btn:hover {
-    background-color: #507e46;
-    color: #f9f5f5;
+    color: #121212;
+    background-color: #f9f5f5;
 }
 
 .contact-img {
@@ -884,7 +882,7 @@ footer {
 .img-flower11 {
     position: absolute;
     width: 6%;
-    bottom: 20%;
+    bottom: 18%;
     right: 10%;
     animation-name: fuwafuwa9;
     z-index: 50;
@@ -905,6 +903,7 @@ footer h3 {
 
 .footer-list li {
     width: 30%;
+    margin:0 10px;
 }
 
 .footer-list a {
@@ -980,8 +979,8 @@ footer h3 {
 
 
     .hamburger {
-        width: 70px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         cursor: pointer;
         position: relative;
         z-index: 20;
@@ -1121,8 +1120,8 @@ footer h3 {
 
     .dress-wrapper,
     .kimono-wrapper {
-        margin-bottom: 15%;
-        padding-bottom: 200px;
+        margin-bottom: 5%;
+        padding-bottom: 150px;
     }
 
     /* hm */
@@ -1130,10 +1129,13 @@ footer h3 {
         margin: 0;
     }
 
+
+    
     .hm-wrapper .bg-box,
     .hm-wrapper .bg-box2 {
-        height: 25vh;
-        margin-bottom: 70px;
+        height: 20vh;
+        margin-top: 3%;
+        margin-bottom: 100px;
     }
 
     .hm-wrapper .hm-1 {
